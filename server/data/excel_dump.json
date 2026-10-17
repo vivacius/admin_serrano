@@ -1,0 +1,969 @@
+{
+  "proyectos": [
+    {
+      "codigo": "AMA",
+      "nombre": "Amaranta",
+      "municipio": "El Cerrito",
+      "lotes_planeados": 100
+    },
+    {
+      "codigo": "PR02",
+      "nombre": "Los Almendros",
+      "municipio": "Palmira",
+      "lotes_planeados": 75
+    },
+    {
+      "codigo": "PR03",
+      "nombre": "Altos del Valle",
+      "municipio": "Ginebra",
+      "lotes_planeados": 48
+    }
+  ],
+  "lotes": [
+    {
+      "id_proy": "Ama",
+      "codigo": "L-001",
+      "area_m2": 350.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-002",
+      "area_m2": 656.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-003",
+      "area_m2": 281.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-004",
+      "area_m2": 251.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-005",
+      "area_m2": 251.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-006",
+      "area_m2": 251.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-007",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-008",
+      "area_m2": 251.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-009",
+      "area_m2": 252.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-010",
+      "area_m2": 253.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-011",
+      "area_m2": 255.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-012",
+      "area_m2": 256.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-013",
+      "area_m2": 260.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-014",
+      "area_m2": 260.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-015",
+      "area_m2": 260.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-016",
+      "area_m2": 260.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-017",
+      "area_m2": 258.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-018",
+      "area_m2": 256.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-019",
+      "area_m2": 254.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-020",
+      "area_m2": 510.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-021",
+      "area_m2": 475.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-022",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-023",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-024",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-025",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-026",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-027",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-028",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-029",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-030",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-031",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-032",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-033",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-034",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-035",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-036",
+      "area_m2": 323.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-037",
+      "area_m2": 312.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-038",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-039",
+      "area_m2": 485.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-040",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-041",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-042",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-043",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-044",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-045",
+      "area_m2": 486.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-046",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-047",
+      "area_m2": 505.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-048",
+      "area_m2": 505.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-049",
+      "area_m2": 695.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-050",
+      "area_m2": 408.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-051",
+      "area_m2": 523.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-052",
+      "area_m2": 560.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-053",
+      "area_m2": 504.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-054",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-055",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-056",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-057",
+      "area_m2": 504.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-058",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-059",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-060",
+      "area_m2": 503.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-061",
+      "area_m2": 900.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-062",
+      "area_m2": 600.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-063",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-064",
+      "area_m2": 515.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-065",
+      "area_m2": 590.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-066",
+      "area_m2": 580.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-067",
+      "area_m2": 698.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-068",
+      "area_m2": 660.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-069",
+      "area_m2": 1000.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-070",
+      "area_m2": 1000.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-071",
+      "area_m2": 837.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-072",
+      "area_m2": 500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-073",
+      "area_m2": 545.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-074",
+      "area_m2": 601.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-075",
+      "area_m2": 539.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-076",
+      "area_m2": 578.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-077",
+      "area_m2": 685.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-078",
+      "area_m2": 2500.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-079",
+      "area_m2": 300.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-080",
+      "area_m2": 300.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-081",
+      "area_m2": 303.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-082",
+      "area_m2": 300.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-083",
+      "area_m2": 250.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-084",
+      "area_m2": 225.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-085",
+      "area_m2": 335.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-086",
+      "area_m2": 303.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-087",
+      "area_m2": 311.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-088",
+      "area_m2": 311.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-089",
+      "area_m2": 309.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-090",
+      "area_m2": 300.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-091",
+      "area_m2": 366.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-092",
+      "area_m2": 275.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-093",
+      "area_m2": 300.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-094",
+      "area_m2": 315.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-095",
+      "area_m2": 300.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-096",
+      "area_m2": 306.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-097",
+      "area_m2": 323.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-098",
+      "area_m2": 311.0
+    },
+    {
+      "id_proy": "Ama",
+      "codigo": "L-099",
+      "area_m2": 262.0
+    }
+  ],
+  "ventas": [
+    {
+      "codigo_venta": "V003",
+      "id_proy": "Ama",
+      "codigo_lote": "L-003",
+      "comprador": "JAVIER GARCIA",
+      "cedula": "16862434",
+      "telefono": "3174211264",
+      "email": "yavierhjg@hotmail.com",
+      "direccion": "Calle 5 #3-73 Santa Elena",
+      "fecha": "2026-08-19",
+      "valor": 48891941.0,
+      "cuota_inicial": 24446016.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V004",
+      "id_proy": "Ama",
+      "codigo_lote": "L-004",
+      "comprador": "JAVIER GARCIA",
+      "cedula": "16862434",
+      "telefono": "3174211264",
+      "email": "yavierhjg@hotmail.com",
+      "direccion": "Calle 5 #3-73 Santa Elena",
+      "fecha": "2026-08-19",
+      "valor": 43672161.0,
+      "cuota_inicial": 21836080.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V006",
+      "id_proy": "Ama",
+      "codigo_lote": "L-006",
+      "comprador": "SANTIAGO CORREA CAMPAÑA",
+      "cedula": "1007888222",
+      "telefono": "3013555173",
+      "email": "sacorreaca@unal.edu.co",
+      "direccion": "Calle 8 #12-26 Pradera",
+      "fecha": "2026-08-01",
+      "valor": 65129741.0,
+      "cuota_inicial": 32564870.0,
+      "observaciones": "No tiene promesa"
+    },
+    {
+      "codigo_venta": "V007",
+      "id_proy": "Ama",
+      "codigo_lote": "L-007",
+      "comprador": "SANTIAGO CORREA CAMPAÑA",
+      "cedula": "1007888222",
+      "telefono": "3013555173",
+      "email": "sacorreaca@unal.edu.co",
+      "direccion": "Calle 8 #12-26 Pradera",
+      "fecha": "2026-08-01",
+      "valor": 64870259.0,
+      "cuota_inicial": 32435129.0,
+      "observaciones": "No tiene promesa"
+    },
+    {
+      "codigo_venta": "V008",
+      "id_proy": "Ama",
+      "codigo_lote": "L-008",
+      "comprador": "JUAN JOSE RAMIREZ SALAZAR",
+      "cedula": "1114835068",
+      "telefono": null,
+      "email": null,
+      "direccion": null,
+      "fecha": "2026-09-15",
+      "valor": 90000000.0,
+      "cuota_inicial": 45000000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V012",
+      "id_proy": "Ama",
+      "codigo_lote": "L-012",
+      "comprador": "DANIELA GUTIERREZ",
+      "cedula": "1007837072",
+      "telefono": "3116774637",
+      "email": "linethdanielagv@hotmail.com",
+      "direccion": "Calle 6 #2-06 Amaime",
+      "fecha": "2026-08-01",
+      "valor": 59534884.0,
+      "cuota_inicial": 29767442.0,
+      "observaciones": "No tiene promesa"
+    },
+    {
+      "codigo_venta": "V013",
+      "id_proy": "Ama",
+      "codigo_lote": "L-013",
+      "comprador": "DANIELA GUTIERREZ",
+      "cedula": "1007837072",
+      "telefono": "3116774637",
+      "email": "linethdanielagv@hotmail.com",
+      "direccion": "Calle 6 #2-06 Amaime",
+      "fecha": "2026-08-01",
+      "valor": 60465116.0,
+      "cuota_inicial": 30232558.0,
+      "observaciones": "No tiene promesa"
+    },
+    {
+      "codigo_venta": "V039",
+      "id_proy": "Ama",
+      "codigo_lote": "L-039",
+      "comprador": "MANUEL BURBANO",
+      "cedula": "1114829022",
+      "telefono": null,
+      "email": null,
+      "direccion": null,
+      "fecha": "2026-08-21",
+      "valor": 95000000.0,
+      "cuota_inicial": 47500000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V042",
+      "id_proy": "Ama",
+      "codigo_lote": "L-042",
+      "comprador": "PABLO PEREZ ROSERO",
+      "cedula": "SIN-DOC-V042",
+      "telefono": null,
+      "email": null,
+      "direccion": null,
+      "fecha": "2026-08-01",
+      "valor": 85000000.0,
+      "cuota_inicial": 42500000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V045",
+      "id_proy": "Ama",
+      "codigo_lote": "L-045",
+      "comprador": "MANUEL BURBANO",
+      "cedula": "1114829022",
+      "telefono": null,
+      "email": null,
+      "direccion": null,
+      "fecha": "2026-08-21",
+      "valor": 95000000.0,
+      "cuota_inicial": 47500000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V046",
+      "id_proy": "Ama",
+      "codigo_lote": "L-046",
+      "comprador": "PABLO PEREZ ROSERO",
+      "cedula": "SIN-DOC-V046",
+      "telefono": null,
+      "email": null,
+      "direccion": null,
+      "fecha": "2026-08-01",
+      "valor": 85000000.0,
+      "cuota_inicial": 42500000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V047",
+      "id_proy": "Ama",
+      "codigo_lote": "L-047",
+      "comprador": "CLAUDIA FERNANDA INSUASTY ARCOS",
+      "cedula": "1113626660",
+      "telefono": "3108303822",
+      "email": "Claudiaarcos369@gmail.com",
+      "direccion": "CL 30 #30-77",
+      "fecha": "2026-08-04",
+      "valor": 85000000.0,
+      "cuota_inicial": 42500000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V052",
+      "id_proy": "Ama",
+      "codigo_lote": "L-052",
+      "comprador": "JAVIER GARCIA",
+      "cedula": "16862434",
+      "telefono": "3174211264",
+      "email": "yavierhjg@hotmail.com",
+      "direccion": "Calle 5 #3-73 Santa Elena",
+      "fecha": "2026-08-19",
+      "valor": 97435897.0,
+      "cuota_inicial": 48717948.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V054",
+      "id_proy": "Ama",
+      "codigo_lote": "L-054",
+      "comprador": "CLAUDIA FERNANDA INSUASTY ARCOS",
+      "cedula": "1113626660",
+      "telefono": "3108303822",
+      "email": "Claudiaarcos369@gmail.com",
+      "direccion": "CL 30 #30-77",
+      "fecha": "2026-08-04",
+      "valor": 85000000.0,
+      "cuota_inicial": 42500000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V055",
+      "id_proy": "Ama",
+      "codigo_lote": "L-055",
+      "comprador": "CLAUDIA FERNANDA INSUASTY ARCOS",
+      "cedula": "1113626660",
+      "telefono": "3108303822",
+      "email": "Claudiaarcos369@gmail.com",
+      "direccion": "CL 30 #30-77",
+      "fecha": "2026-08-04",
+      "valor": 85000000.0,
+      "cuota_inicial": 42500000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V059",
+      "id_proy": "Ama",
+      "codigo_lote": "L-059",
+      "comprador": "CLAUDIA FERNANDA INSUASTY ARCOS",
+      "cedula": "1113626660",
+      "telefono": "3108303822",
+      "email": "Claudiaarcos369@gmail.com",
+      "direccion": "CL 30 #30-77",
+      "fecha": "2026-08-04",
+      "valor": 85000000.0,
+      "cuota_inicial": 42500000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V074",
+      "id_proy": "Ama",
+      "codigo_lote": "L-074",
+      "comprador": "MAYRINSABEL PAEZ HERNANDEZ",
+      "cedula": "1130679252",
+      "telefono": "3105355638",
+      "email": "isabel.pez@gmail.com",
+      "direccion": "Kr 1 #66-42 Cali",
+      "fecha": "2026-10-02",
+      "valor": 156260000.0,
+      "cuota_inicial": 78130000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V076",
+      "id_proy": "Ama",
+      "codigo_lote": "L-076",
+      "comprador": "MARIANITA DE JESUS SANCHEZ NAVIA",
+      "cedula": "31388763",
+      "telefono": "3235829361",
+      "email": "Crisanz812@gmail.com",
+      "direccion": "Cra 108 #60 A 26 Cali",
+      "fecha": "2026-10-08",
+      "valor": 150280000.0,
+      "cuota_inicial": 60000000.0,
+      "observaciones": null
+    },
+    {
+      "codigo_venta": "V077",
+      "id_proy": "Ama",
+      "codigo_lote": "L-077",
+      "comprador": "MAYRINSABEL PAEZ HERNANDEZ",
+      "cedula": "1130679252",
+      "telefono": "3105355638",
+      "email": "isabel.pez@gmail.com",
+      "direccion": "Kr 1 #66-42 Cali",
+      "fecha": "2026-10-02",
+      "valor": 178100000.0,
+      "cuota_inicial": 89050000.0,
+      "observaciones": null
+    }
+  ],
+  "abonos": [
+    {
+      "id_abono": "A0001",
+      "codigo_venta": "V076",
+      "fecha": "2026-10-08",
+      "valor": 30000000.0,
+      "medio": "consignacion",
+      "referencia": "442774",
+      "observaciones": "DAVIVIENDA",
+      "pendiente_completar": false
+    },
+    {
+      "id_abono": "A0002",
+      "codigo_venta": "V076",
+      "fecha": "2026-10-13",
+      "valor": 30000000.0,
+      "medio": "consignacion",
+      "referencia": "23381",
+      "observaciones": "DAVIVIENDA",
+      "pendiente_completar": false
+    },
+    {
+      "id_abono": "A0003",
+      "codigo_venta": "V008",
+      "fecha": null,
+      "valor": 45000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0004",
+      "codigo_venta": "V003",
+      "fecha": null,
+      "valor": 30000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0005",
+      "codigo_venta": "V004",
+      "fecha": null,
+      "valor": 30000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0006",
+      "codigo_venta": "V052",
+      "fecha": null,
+      "valor": 30000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0007",
+      "codigo_venta": "V006",
+      "fecha": "2026-09-09",
+      "valor": 18500000.0,
+      "medio": "consignacion",
+      "referencia": "713582",
+      "observaciones": "DAVIVIENDA",
+      "pendiente_completar": false
+    },
+    {
+      "id_abono": "A0008",
+      "codigo_venta": "V007",
+      "fecha": "2026-09-09",
+      "valor": 18500000.0,
+      "medio": "consignacion",
+      "referencia": "713582",
+      "observaciones": "DAVIVIENDA",
+      "pendiente_completar": false
+    },
+    {
+      "id_abono": "A0009",
+      "codigo_venta": "V042",
+      "fecha": null,
+      "valor": 50000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0010",
+      "codigo_venta": "V046",
+      "fecha": null,
+      "valor": 50000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0011",
+      "codigo_venta": "V039",
+      "fecha": "2026-09-21",
+      "valor": 50000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0012",
+      "codigo_venta": "V045",
+      "fecha": "2026-09-21",
+      "valor": 50000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0013",
+      "codigo_venta": "V047",
+      "fecha": null,
+      "valor": 75000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0014",
+      "codigo_venta": "V054",
+      "fecha": null,
+      "valor": 75000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0015",
+      "codigo_venta": "V055",
+      "fecha": null,
+      "valor": 75000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0016",
+      "codigo_venta": "V059",
+      "fecha": null,
+      "valor": 75000000.0,
+      "medio": null,
+      "referencia": null,
+      "observaciones": null,
+      "pendiente_completar": true
+    },
+    {
+      "id_abono": "A0017",
+      "codigo_venta": "V074",
+      "fecha": "2026-10-01",
+      "valor": 62000000.0,
+      "medio": "consignacion",
+      "referencia": null,
+      "observaciones": "DAVIVIENDA",
+      "pendiente_completar": false
+    },
+    {
+      "id_abono": "A0018",
+      "codigo_venta": "V077",
+      "fecha": "2026-10-01",
+      "valor": 62000000.0,
+      "medio": "consignacion",
+      "referencia": null,
+      "observaciones": "DAVIVIENDA",
+      "pendiente_completar": false
+    }
+  ]
+}
