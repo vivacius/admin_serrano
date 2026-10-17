@@ -31,6 +31,7 @@ export default function Proyectos() {
     },
     onSuccess: () => {
       qc.invalidateQueries({ queryKey: ['proyectos'] })
+      qc.invalidateQueries({ queryKey: ['dashboard'] })
       setAbierto(false)
       setF(nuevo)
       setEditando(null)
@@ -41,7 +42,10 @@ export default function Proyectos() {
     mutationFn: async (p: Proyecto) => {
       await api.actualizarProyecto(p.id, { activo: !p.activo })
     },
-    onSuccess: () => qc.invalidateQueries({ queryKey: ['proyectos'] }),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ['proyectos'] })
+      qc.invalidateQueries({ queryKey: ['dashboard'] })
+    },
   })
 
   const edita = puede('administrador', 'cartera')

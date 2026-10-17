@@ -16,8 +16,8 @@ export default function LotesInventario() {
     queryFn: () => api.proyectos(),
   })
 
-  // Seleccionar Amaranta por defecto si existe
-  const idActivo = proyectoId || (proyectos.find((p) => p.codigo === 'AMA')?.id ?? proyectos[0]?.id ?? '')
+  const proyectosActivos = proyectos.filter((p) => p.activo)
+  const idActivo = proyectoId || (proyectosActivos.find((p) => p.codigo === 'AMA')?.id ?? proyectosActivos[0]?.id ?? '')
 
   const { data: lotes = [], isLoading, error } = useQuery({
     queryKey: ['lotes', idActivo],
@@ -66,7 +66,7 @@ export default function LotesInventario() {
         <div className="grid gap-4 sm:grid-cols-3">
           <Field label="Proyecto">
             <Select value={idActivo} onChange={(e) => setProyectoId(e.target.value)}>
-              {proyectos.map((p) => (
+              {proyectosActivos.map((p) => (
                 <option key={p.id} value={p.id}>
                   {p.nombre} ({p.codigo})
                 </option>

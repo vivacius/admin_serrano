@@ -297,7 +297,7 @@ export default function Inicio() {
       </div>
 
       <div className="flex items-center justify-between text-xs text-gray-400 pt-2 border-t border-gray-100">
-        <span>Base de datos activa: SQLite local (server/data/serrano.db) · Sincronizado</span>
+        <span>Conexión en la nube: Supabase PostgreSQL (admin_serrano) · En línea</span>
         <span>SERRANO Gestión Inmobiliaria v1.0</span>
       </div>
     </div>

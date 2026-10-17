@@ -535,20 +535,23 @@ export const api = {
   },
 
   async dashboard(): Promise<DashboardData> {
-    // 1. Proyectos
-    const { data: proys } = await supabase.from('proyectos').select('*')
+    // 1. Proyectos (filtrar activos para el panel principal)
+    const { data: proys } = await supabase.from('proyectos').select('*').order('codigo')
     const proyList = proys || []
+    const proysActivos = proyList.filter((p) => Boolean(p.activo))
+    const proyActivosIds = new Set(proysActivos.map((p) => p.id))
 
-    // 2. Lotes
+    // 2. Lotes (pertenecientes a proyectos activos)
     const { data: lotes } = await supabase.from('lotes').select('id, proyecto_id, activo')
-    const lotesList = lotes || []
+    const lotesList = (lotes || []).filter((l) => proyActivosIds.has(l.proyecto_id) && Boolean(l.activo))
+    const lotesActivosIds = new Set(lotesList.map((l) => l.id))
 
-    // 3. Negociaciones
+    // 3. Negociaciones de lotes activos
     const { data: negs } = await supabase
       .from('negociaciones')
       .select('id, lote_id, estado, precio_acordado')
       .neq('estado', 'cancelado')
-    const negsList = negs || []
+    const negsList = (negs || []).filter((n) => lotesActivosIds.has(n.lote_id))
 
     // 4. Abonos vigentes
     const { data: abonos } = await supabase
@@ -563,7 +566,7 @@ export const api = {
 
     const abonosList = abonos || []
 
-    // Métricas globales
+    // Métricas globales sobre proyectos activos
     const totalNegociado = negsList.reduce((acc, n) => acc + Number(n.precio_acordado), 0)
     const totalRecaudo = abonosList.reduce((acc, a) => acc + Number(a.valor), 0)
     const cartera = totalNegociado - totalRecaudo
@@ -572,14 +575,14 @@ export const api = {
     const enProceso = negsList.filter((n) => ['en_negociacion', 'separado'].includes(n.estado)).length
     const disponibles = Math.max(0, lotesList.length - (vendidos + enProceso))
 
-    // Desglose por proyecto
+    // Desglose ÚNICAMENTE de proyectos activos
     const negsPorLote = new Map(negsList.map((n) => [n.lote_id, n]))
     const abonosPorNeg = new Map<string, number>()
     for (const a of abonosList) {
       abonosPorNeg.set(a.negociacion_id, (abonosPorNeg.get(a.negociacion_id) || 0) + Number(a.valor))
     }
 
-    const por_proyecto = proyList.map((p) => {
+    const por_proyecto = proysActivos.map((p) => {
       const lotesDelProy = lotesList.filter((l) => l.proyecto_id === p.id)
       const negsDelProy = lotesDelProy.map((l) => negsPorLote.get(l.id)).filter(Boolean) as typeof negsList
       const negVal = negsDelProy.reduce((acc, n) => acc + Number(n.precio_acordado), 0)
@@ -636,7 +639,7 @@ export const api = {
 
     return {
       kpis: {
-        proyectos: proyList.length,
+        proyectos: proysActivos.length,
         activas: negsList.length,
         negociado: totalNegociado,
         recaudo: totalRecaudo,
